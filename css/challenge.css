@@ -1,0 +1,101 @@
+/* style of chalange
+=====================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+    
+*{
+     margin: 0;
+
+}
+
+
+
+/*style of header
+==================*/
+
+header{
+    background-color: rgb(148, 148, 102); 
+    padding: fixed;
+    width: 100%;
+    display: flex; /*aligner les text*/
+    justify-content: space-evenly; /* espace entre elements*/
+    align-items: center; /* aligner elements_centre*/
+   
+
+}
+
+/* style of logo
+================*/
+
+.logo{
+    color: aqua;
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.logo span{
+    color: #fb911f;
+
+}
+
+
+/*style of navbar
+================*/
+
+.navbar{
+    display: flex;
+    position: relative;
+}
+
+.navbar li{
+    /* list-style: none;  enlever les points de (li)*/
+    display: inline-flex;
+}
+
+.navbar a{
+    color: #fb911f;
+    margin-left: 150px;
+    
+}
+
+/* style of baniere
+==================*/
+
+.baniere{
+    margin: 20px;
+    position: relative;
+    background-image: url(./images/thor.jpg);
+    background-repeat: no-repeat; /* ne pas rpeter image*/
+    background-size: cover;
+    background-position: center;
+    height: 82vh;
+    margin: 0;
+
+}
+
+
+.contenu{
+    position: relative;
+    text-align: center;
+    width: 500px;
+    height: 100px;
+    margin-bottom: 50px;
+    
+   
+}
+
+/* style of footer
+==================*/
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #fb911f;
+    color: white;
+    text-align: center;
+    
+  }
